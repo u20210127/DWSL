@@ -1,0 +1,14 @@
+CREATE DATABASE ClientesDB
+
+USE ClientesDB;
+
+CREATE TABLE Clientes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255) NOT NULL,
+    telefono VARCHAR(15) NOT NULL,
+    dui VARCHAR(10) NOT NULL,
+    correo VARCHAR(255) NOT NULL,
+    direccion VARCHAR(255) NOT NULL
+);
+
+SELECT * FROM Clientes;
